@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductComponent } from './product/product.component';
 import { SignupComponent } from './signup/signup.component';
+import { StudentComponent } from './student/student.component';
 
 export const routes: Routes = [
     {
@@ -25,6 +26,13 @@ export const routes: Routes = [
         
 
     },
+    {
+        path:'Student/:studName',
+        component:StudentComponent,
+        
+
+    },
+    
     {
         path:'Contact',
         component:ContactComponent,
